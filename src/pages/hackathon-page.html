@@ -1,0 +1,44 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../behaviors/cascaded-behavior.html">
+<link rel="import" href="../behaviors/localize-behavior.html">
+<link rel="import" href="../behaviors/page-behavior.html">
+<link rel="import" href="../elements/footer-block.html">
+<link rel="import" href="../elements/logos-block.html">
+<link rel="import" href="../elements/mapdcamp-block.html">
+
+
+<dom-module id="hackathon-page">
+	<template>
+ 		<div class="container">
+			
+		</div>
+		<mapdcamp-block app="{{app}}" selected="{{selected}}" cascaded></mapdcamp-block>
+		<logos-block app="{{app}}" cascaded></logos-block>
+		<footer-block app="{{app}}" cascaded></footer-block>
+	</template>
+
+
+	<script>
+	    (function () {
+	      'use strict';
+
+	      Polymer({
+
+	        is: 'hackathon-page',
+
+	        behaviors: [
+	          HOVERBOARD.PageBehavior,
+	          HOVERBOARD.CascadedBehavior
+	        ],
+
+	        properties: {
+	         
+	        }
+
+	      });
+
+	    }());
+ 	</script>
+
+</dom-module>
