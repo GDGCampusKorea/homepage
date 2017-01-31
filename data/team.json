@@ -1,10 +1,11 @@
 [
   {
-    "title": "Core Team",
     "members": [
       {
-        "name": "Oleh Zasadnyy",
-        "photoUrl": "/images/people/oleh_zasadnyy.jpg",
+        "name": "강경완",
+        "photoUrl": "/images/people/kyeongwan.png",
+        "companyLogo": "/images/logos/gdg-kc.png",
+        "nick": "@lucas",
         "socials": [
           {
             "icon": "gplus",
@@ -27,11 +28,12 @@
             "name": "Blog"
           }
         ],
-        "title": "Website and sponsors"
+        "title": "잉여 프로그래머"
       },
       {
-        "name": "Sofiya Huts",
-        "photoUrl": "/images/people/sofiya_huts.jpg",
+        "name": "이가은",
+        "photoUrl": "/images/people/lika.png",
+        "companyLogo": "/images/logos/gdg-kc.png",
         "socials": [
           {
             "icon": "gplus",
@@ -44,11 +46,12 @@
             "name": "Facebook"
           }
         ],
-        "title": "Social and media"
+        "title": ""
       },
       {
-        "name": "Vitaliy Zasadnyy",
-        "photoUrl": "/images/people/vitaliy_zasadnyy.jpg",
+        "name": "박혜정",
+        "photoUrl": "/images/people/hyejeong.png",
+        "companyLogo": "/images/logos/gdg-kc.png",
         "socials": [
           {
             "icon": "linkedin",
@@ -66,11 +69,12 @@
             "name": "Blog"
           }
         ],
-        "title": "Speakers"
+        "title": ""
       },
       {
-        "name": "Marta Maxymiak",
-        "photoUrl": "/images/people/marta_maxymiak.jpg",
+        "name": "이다영",
+        "photoUrl": "/images/people/.jpg",
+        "companyLogo": "/images/logos/gdg-kc.png",
         "socials": [
           {
             "icon": "gplus",
@@ -83,92 +87,10 @@
             "name": "Facebook"
           }
         ],
-        "title": "Party and happiness"
-      },
-      {
-        "name": "Ostap Andrusiv",
-        "photoUrl": "/images/people/ostap_andrusiv.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://google.com/+OstapAndrusiv",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/ostap.andrusiv",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/p1f",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://andrusiv.com/",
-            "name": "Blog"
-          }
-        ],
-        "title": "Sponsors"
-      },
-      {
-        "name": "Vasylyna Mytsak",
-        "photoUrl": "/images/people/vasylyna_mytsak.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+ВасилинаМицак",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/vasylyna.mytsak",
-            "name": "Facebook"
-          }
-        ],
-        "title": "Party and happiness"
-      },
-      {
-        "name": "Volodya Karpliuk",
-        "photoUrl": "/images/people/volodya_karpliuk.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+VolodyaKarpliuk23",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/volodya.karpluk",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/keyv23",
-            "name": "Twitter"
-          }
-        ],
-        "title": "Speakers"
-      },
-      {
-        "name": "Diana Pinchuk",
-        "photoUrl": "/images/people/diana_pinchuk.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+DianaPinchuk",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/diana.pinchuk.9",
-            "name": "Facebook"
-          }
-        ],
-        "title": "Social and media"
+        "title": ""
       }
-    ]
+    ],
+    "title": "Ogernizer Team"
   },
   {
     "title": "Program Committee",

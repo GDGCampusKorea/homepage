@@ -42,7 +42,9 @@
     "paper-spinner": "PolymerElements/paper-spinner#^1.2.0",
     "polymer": "Polymer/polymer#^1.7.0",
     "polymerfire": "firebase/polymerfire#^0.10.0",
-    "time-elements": "github/time-elements#^0.6.0"
+    "time-elements": "github/time-elements#^0.6.0",
+    "bootstrap-calendar": "^0.2.5",
+    "fullcalendar-calendar": "^1.1.1"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^4.3.0"

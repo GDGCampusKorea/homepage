@@ -1,4 +1,5 @@
 <img src="/images/posts/summary1.jpg" style="width: 100%;"/>
+<img src="/images/posts/summary1.jpg" style="width: 100%;"/>
 
 [GDG DevFest Ukraine 2015](https://devfest.gdg.org.ua/2015/) is now over. It was a great success.
  We are happy to share with you some facts, emotions and, of course, photos from the biggest Google Developers Conference in Ukraine!

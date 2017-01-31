@@ -80,6 +80,10 @@
         text-transform: uppercase;
       }
 
+      .event-title {
+        font-size: 18px;
+      }
+
       .motto {
         margin-top: 20px;
         font-size: 22px;
@@ -98,9 +102,10 @@
       .open-video {
         @apply(--layout-horizontal);
         @apply(--layout-center);
-        margin-top: 20px;
+        margin-top: 40px;
+        margin-bottom: 10px;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 18px;
       }
 
       .open-video iron-icon {
@@ -129,14 +134,14 @@
         <animatable-content name="home">
           <div class="container" center-justified>
             <div class="home-wrapper">
-              <iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
-                          alt="GDG DevFest Ukraine 2016"></iron-image>
-              <h3 class="dates">{{localize('dates')}}</h3>
+              <iron-image class="logo" src="/images/logo-light.png" sizing="contain"
+                          alt="GDG Korea Campus"></iron-image>
               <h2 class="motto">{{localize('motto')}}</h2>
-              <div class="open-video" on-tap="_openVideo">
-                <iron-icon icon="play"></iron-icon>
-                {{localize('play-icon')}}
+              <div class="open-video" on-tap="_nextEvent">
+                <iron-icon icon="play"></iron-icon>Next Event
               </div>
+              <h3 class="event-title" on-tap="_nextEvent">{{localize('next-event-title')}}</h3>
+              <h3 class="dates" on-tap="_nextEvent">{{localize('dates')}}</h3>
               <div class="action-buttons">
                 <paper-button class="primary" on-tap="_scrollToTickets" raised>{{localize('buy-ticket')}}</paper-button>
               </div>
@@ -199,10 +204,10 @@
           }
         },
 
-        _openVideo: function () {
-          HOVERBOARD.Elements.Template.openVideo(this.app.data.pages.home.headerSettings.video.title,
-            this.app.data.pages.home.headerSettings.video.youtubeId, true);
-          HOVERBOARD.Analytics.trackEvent('video', 'watch', this.app.data.pages.home.headerSettings.video.title);
+        _nextEvent: function () {
+          // HOVERBOARD.Elements.Template.openVideo(this.app.data.pages.home.headerSettings.video.title,
+          //   this.app.data.pages.home.headerSettings.video.youtubeId, true);
+          // HOVERBOARD.Analytics.trackEvent('video', 'watch', this.app.data.pages.home.headerSettings.video.title);
         },
 
         _scrollToTickets: function () {

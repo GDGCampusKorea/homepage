@@ -3,11 +3,15 @@
 <link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
 
 <link rel="import" href="../../bower_components/marked-element/marked-element.html">
+<script type="text/javascript" src="../../bower_components/moment/moment.js"></script> 
+<script type="text/javascript" src="../../bower_components/jquery/dist/jquery.min.js"></script> 
 
 <link rel="import" href="../styles/shared-styles.html">
 <link rel="import" href="../behaviors/localize-behavior.html">
-
-
+<link rel="import" href="../../bower_components/fullcalendar-calendar/fullcalendar-theme.html">
+<link rel="import" href="../../bower_components/fullcalendar-calendar/fullcalendar-calendar.html">
+<script src="../../bower_components/fullcalendar/dist/lang/ko.js" inline=""></script>
+  
 <dom-module id="latest-posts">
 
   <template>
@@ -54,35 +58,21 @@
           @apply(--layout-flex);
         }
       }
+
     </style>
 
-    <div class="container">
-      <h4 class="heading text-center">[[localize('latest-news')]]</h4>
-      <div class="posts-wrapper">
-        <div class="post">
-          <div class="title">[[_posts.0.title]]</div>
-          <marked-element markdown="[[_posts.0.brief]]">
-            <div class="markdown-html"></div>
-          </marked-element>
-          <a href$="[[_posts.0.url]]">[[localize('continue-reading')]]</a>
-        </div>
-        <span class="post-divider"></span>
-        <div class="post">
-          <div class="title">[[_posts.1.title]]</div>
-          <marked-element markdown="[[_posts.1.brief]]">
-            <div class="markdown-html"></div>
-          </marked-element>
-          <a href$="[[_posts.1.url]]">[[localize('continue-reading')]]</a>
-        </div>
-      </div>
+    <div class="container" id="app">
+        <fullcalendar-calendar id="calComponent" options="[[_options]]" ></fullcalendar-calendar>
     </div>
-
+    
+      
   </template>
 
   <script>
     (function () {
       'use strict';
 
+    
       Polymer({
 
         is: 'latest-posts',
@@ -98,22 +88,37 @@
             observer: '_postsChanged'
           },
 
-          _posts: {
-            type: Array
+          _options: Object,
+          _events: {type: Array, value: [
+              { title: '테스트', start: 1485680470888,  end :1485795470888 }
+          ]},
+          _header: {type:Array, value: 
+            {
+              left: '', 
+              center: 'title',
+              right: 'prev,next, today' 
+            }
           }
+        
         },
 
-        _postsChanged: function () {
-          var temp = this.posts.slice(0, 2);
-          for (var i = 0, len = temp.length; i < len; i++) {
-            temp[i].url = '/blog/posts/' + temp[i].id + '/';
-          }
-          this._posts = temp;
+
+        ready: function(){
+          var calendar = Polymer.dom(this.root).querySelector('fullcalendar-calendar');
+          this._options = {
+            events: this._events,
+            header: this._header
+          };
+          calendar.render();
+          console.log(calendar);
+          // calendar.moment();
         }
+
 
       });
 
     }());
   </script>
+    
 
 </dom-module>

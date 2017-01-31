@@ -67,8 +67,8 @@
 
       .company-logo {
         margin: 5px auto;
-        width: 80px;
-        height: 20px;
+        width: 160px;
+        height: 40px;
       }
 
       @media (max-width: 600px) {
@@ -94,7 +94,7 @@
       <h4 class="heading">[[localize('featured-people-title')]]</h4>
       <div class="people-wrapper">
         <template is="dom-repeat" items="[[featuredPeople]]" as="person">
-          <a href$="/speakers/[[person.id]]" class="person">
+          <a href$="/team/" class="person">
             <iron-image
               class="photo"
               src="[[person.photoUrl]]"
@@ -106,12 +106,12 @@
               sizing="contain"
             ></iron-image>
             <h4 class="name">[[person.name]]</h4>
-            <span class="company">[[person.country]]</span>
+            <span class="company">[[person.nick]]</span>
           </a>
         </template>
       </div>
       <div>
-        <a href="/speakers" class="block-link">
+        <a href="/team" class="block-link">
           <paper-button>[[localize('featured-people-view-all')]]</paper-button>
         </a>
       </div>
@@ -140,14 +140,14 @@
         },
 
         _peopleChanged: function () {
-          var people = this._toArray(this.people),
+          var people = this._toArray((this.people[0])),
             filteredPeople = [];
-          for (var i = 0, length = people.length; i < length; i++) {
-            if (people[i].featured) {
-              filteredPeople.push(people[i]);
-            }
+          for (var i = 0, length = 4; i < length; i++) {
+              filteredPeople.push(people[0][i]);
+              console.log(people[0][i]);
           }
-          this.featuredPeople = this._randomOrder(filteredPeople).slice(0, 4);
+          
+          this.featuredPeople = this._randomOrder(filteredPeople);
         }
 
       });

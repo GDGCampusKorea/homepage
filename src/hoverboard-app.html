@@ -174,7 +174,7 @@
 
           <home-page name="home"
                      app="{{app}}"
-                     people="{{speakers}}"
+                     people="[[app.team]]"
                      posts="{{posts}}"
                      videos="{{videos}}"></home-page>
 
@@ -197,8 +197,8 @@
           <team-page name="team"
                      app="{{app}}"></team-page>
 
-          <cod-page name="cod"
-                    app="{{app}}"></cod-page>
+          <hackathon-page name="hackathon"
+                      app="{{app}}"></hackathon-page>
 
         </neon-animated-pages>
       </div>
@@ -263,6 +263,7 @@
             this.importHref(this.resolveUrl('pages/schedule-page.html'), null, null, true);
             this.importHref(this.resolveUrl('pages/speakers-page.html'), null, null, true);
             this.importHref(this.resolveUrl('pages/blog-page.html'), null, null, true);
+            this.importHref(this.resolveUrl('pages/hackathon-page.html'), null, null, true);
           }.bind(this));
         },
 
