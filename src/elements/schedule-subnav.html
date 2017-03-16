@@ -141,7 +141,7 @@
           relative
           hide-scroll-buttons
         >
-          <template is="dom-repeat" items="[[schedule]]" as="day">
+         <template is="dom-repeat" items="[[schedule]]" as="day">
             <paper-tab day$="day[[_addToValue(index, 1)]]" link>
               <a href$="/schedule/day[[_addToValue(index, 1)]]" layout center>
                 [[day.dateReadable]]
@@ -151,7 +151,7 @@
           <template is="dom-if" if="{{app.user}}">
             <paper-tab day="myschedule" link>
               <a href="/schedule/myschedule" layout center>
-                [[localize('my-schedule')]]
+                {$ mySchedule $}
               </a>
             </paper-tab>
           </template>
@@ -170,8 +170,8 @@
             attr-for-selected="day">
 
             <template is="dom-repeat" items="[[schedule]]" as="day">
-              <paper-item label$="[[day.dateReadable]]" day$="day[[_addToValue(index, 1)]]" link>
-                <a href$="/schedule/day[[_addToValue(index, 1)]]"
+              <paper-item label$="[[day.dateReadable]]" day$="[[[days[index]]]" link>
+                <a href$="/schedule/[[[days[index]]]"
                    layout center>[[day.dateReadable]]</a>
               </paper-item>
             </template>
@@ -203,10 +203,6 @@
           allow-outside-scroll
           opened="{{_filtersOpened}}"
         >
-          <paper-button class="filter-button dropdown-trigger">
-            [[localize('filter')]]
-            <iron-icon class="filter-icon" icon="filter-list"></iron-icon>
-          </paper-button>
           <paper-menu
             id="filters"
             class="filters-content dropdown-content"
@@ -214,34 +210,12 @@
             selected-values="{{filters}}"
             multi
           >
-            <template is="dom-repeat" items="[[schedule.tags]]" as="tag">
-              <paper-checkbox
-                value="[[tag]]"
-                checked="{{_isChecked(tag)}}"
-                layout horizontal center flex
-              >
-                [[tag]]
-              </paper-checkbox>
-            </template>
-            <paper-item on-tap="clearFilters">[[localize('clear-all')]]</paper-item>
           </paper-menu>
         </paper-menu-button>
       </div>
     </nav>
 
-    <div class="info-banner" layout horizontal justified>
-      <div class="legend" layout horizontal wrap>
-        <template is="dom-repeat" items="[[schedule.tags]]" as="tag">
-          <div class="legend-item">
-            <i class="point"
-               style$="background: [[_getCustomStyleValue(tag)]]"></i>[[tag]]
-          </div>
-        </template>
-      </div>
-      <div class="filters" hidden$="[[!_filtersLabel]]">
-        [[localize('filtered-by')]] [[_filtersLabel]]
-      </div>
-    </div>
+  
 
   </template>
 
@@ -261,6 +235,11 @@
         properties: {
           schedule: {
             type: Array
+          },
+
+          days: {
+            type:Array,
+            value: ['apply', 'allEvent']
           },
 
           selectedDay: {

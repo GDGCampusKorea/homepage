@@ -1,0 +1,192 @@
+[
+  {
+    "id": "firebased-hackathon",
+    "title": "2017 GDG 불붙은 해커톤",
+    "date": "2017-02-17",
+    "primaryColor": "#00BCD4",
+    "secondaryColor": "#00BCD4",
+    "image": "/images/posts/hackathon.jpg",
+    "brief": "2017년 GDG Korea Campus 불붙은 해커톤 (Firebased Hackathon)",
+    "person" : [{
+      "members": [
+        {
+          "name": "강경완",
+          "photoUrl": "/images/people/kyeongwan.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "nick": "@lucas",
+          "title": "",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "https://www.facebook.com/kyeongwan.k",
+              "name": "Facebook"
+            },
+            {
+              "icon": "website",
+              "link": "http://kyeongwan.kr/",
+              "name": "Blog"
+            }
+          ]
+        },
+        {
+          "name": "이가은",
+          "photoUrl": "/images/people/lika.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "title": ""
+        },
+        {
+          "name": "박혜정",
+          "photoUrl": "/images/people/hyejeong.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "title": ""
+        },
+        {
+          "name": "계성혁",
+          "photoUrl": "/images/people/sunghyuk.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "nick": "@lkaybob",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "https://www.facebook.com/lawrence.kaybob",
+              "name": "Facebook"
+            },
+            {
+              "icon": "website",
+              "link": "http://blog.lkaybob.pe.kr/",
+              "name": "Blog"
+            }
+          ]
+        },
+        {
+          "name": "진겸",
+          "photoUrl": "/images/people/kevin.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "nick": "@kevioriginal",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "https://www.facebook.com/profile.php?id=100008548391487",
+              "name": "Facebook"
+            },
+            {
+              "icon": "website",
+              "link": "https://kevinoriginal.github.io/",
+              "name": "Blog"
+            }
+          ]
+        },
+        {
+          "name": "문연주",
+          "photoUrl": "/images/people/yeonju.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "title": ""
+        },
+        {
+          "name": "박효진",
+          "photoUrl": "/images/people/hyojin.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "socials": [
+            {
+             "icon": "facebook",
+             "link": "https://www.facebook.com/sleeeepy.zZ",
+             "name": "Facebook"
+           }
+         ],
+          "title": ":D"
+        },
+        {
+          "name": "강명서",
+          "photoUrl": "/images/people/myungseo.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "nick": "@Leop0ld",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "https://www.facebook.com/leop0ld",
+              "name": "Facebook"
+            },
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/__leop0ld__",
+              "name": "Twitter"
+            },
+            {
+              "icon": "website",
+              "link": "https://leop0ld.github.io/",
+              "name": "Blog"
+            }
+          ],
+          "title": "Happy Hacker"
+        },
+        {
+          "name": "권혁우",
+          "photoUrl": "/images/people/alex.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "title": ""
+        }
+      ],
+      "title": "도움 주신 분들"
+    }],
+    "logo" :
+    [
+          {
+            "title": "장소 후원",
+            "logos": [
+            {
+              "name": "D.Camp",
+              "url": "http://dcamp.kr/",
+              "logoUrl": "../images/logos/dcamp-logo.svg"
+            }
+            ]
+          }
+    ],
+    "location" : "dcamp"
+  },
+  {
+    "id": "meetup-march",
+    "title": "GDG Korea Campus 3월 밋업",
+    "date": "2017-03-28",
+    "primaryColor": "#5a7785",
+    "secondaryColor": "#455a64",
+    "image": "/images/posts/meetup.jpg",
+    "brief": "GDG DevFest Ukraine 2015 is now over. It was a great success. We are happy to share with you some facts, emotions and, of course, photos from the biggest Google Developers Conference in Ukraine!",
+    "person" : [{
+      "members": [
+        {
+          "name": "강경완",
+          "photoUrl": "/images/people/kyeongwan.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "nick": "@lucas",
+          "title": "",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "https://www.facebook.com/kyeongwan.k",
+              "name": "Facebook"
+            },
+            {
+              "icon": "website",
+              "link": "http://kyeongwan.kr/",
+              "name": "Blog"
+            }
+          ]
+        },
+        {
+          "name": "이가은",
+          "photoUrl": "/images/people/lika.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "title": ""
+        },
+        {
+          "name": "박혜정",
+          "photoUrl": "/images/people/hyejeong.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "title": ""
+        }
+      ],
+      "title": "도움 주신 분들"
+    }],
+    "location" : "maru180"
+  }
+]

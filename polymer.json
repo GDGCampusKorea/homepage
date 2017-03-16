@@ -10,7 +10,9 @@
     "src/pages/schedule-page.html",
     "src/pages/speakers-page.html",
     "src/pages/team-page.html",
-    "src/pages/hackathon-page.html",
+    "src/pages/event-detail.html",
+    "src/pages/event-list.html",
+    "src/pages/event-page.html",
     "404.html"
   ],
   "sources": [

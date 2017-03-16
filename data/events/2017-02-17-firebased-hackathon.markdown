@@ -187,6 +187,4 @@
 <br>
 <br>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeNJI9EJHHNug3he1n33wHymrbGd8uoUdViHJh-QeEaZPzbAg/viewform?embedded=true" width="100%" height="2000px" frameborder="0" marginheight="100%" marginwidth="0">로드 중...</iframe>
-
 <br>

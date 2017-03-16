@@ -172,7 +172,7 @@
                     characters="220"
                     break-last-word
                   ></truncate-marked-text>
-
+                  <input type='text' class='form-control' id='beaconMac' value="{{app.user.sessions.[[session.id]]}}"/>
                   <a class="read-more" href$="/speakers/[[speaker.id]]" dialog-dismiss>[[localize('read-more')]]</a>
                 </div>
               </div>
@@ -267,6 +267,7 @@
 
         _getMyScheduleIcon: function (id) {
           this.fabIcon = this.isInMySchedule(id) ? 'calendar-check' : 'calendar-plus';
+          console.log(this.isInMySchedule(id));
         }
 
       });

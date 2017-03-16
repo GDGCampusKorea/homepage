@@ -233,7 +233,7 @@
             this._updateHeaderSettings();
             this.notifyPath('_post.date', new Date(this._post.posted).toDateString().slice(4));
 
-            this._postUrl = '/data/posts/' + this._post.posted + '-' + this.postId + '.markdown';
+            this._postUrl = '/data/events/' + this._post.posted + '-' + this.postId + '.markdown';
             this.$.ajax.generateRequest();
           }
         },

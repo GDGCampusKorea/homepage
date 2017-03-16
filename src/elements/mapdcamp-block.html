@@ -116,18 +116,19 @@
 
     <template is="dom-if" if="[[selected]]">
       <google-map
-        zoom="[[app.data.dcamp-location.pointer.zoom]]"
-        latitude="[[app.data.dcamp-location.mapCenter.latitude]]"
-        longitude="[[app.data.dcamp-location.mapCenter.longitude]]"
-        api-key="[[app.data.dcamp-location.apiKey]]"
+        zoom="[[where.pointer.zoom]]"
+        latitude="[[where.mapCenter.latitude]]"
+        longitude="[[where.mapCenter.longitude]]"
+        api-key="[[app.data.map.apiKey]]"
         styles="[[options]]"
         disable-zoom disable-default-ui
       >
         <google-map-marker
-          latitude="[[app.data.dcamp-location.pointer.latitude]]"
-          longitude="[[app.data.dcamp-location.pointer.longitude]]"
+          latitude="[[where.pointer.latitude]]"
+          longitude="[[where.pointer.longitude]]"
         ></google-map-marker>
       </google-map>
+      
     </template>
     >
     <div class="disable-map-events"></div>
@@ -137,24 +138,24 @@
         <paper-card class="card">
           <div class="header paper-card">
             <div class="header-image" style$="background-image: url([[_currentImage]])"></div>
-            <div class="title-text">[[localize('dcamp-location-title')]]</div>
+            <div class="title-text">[[localize(where.location-title)]]</div>
           </div>
           <div class="paper-card-container">
             <div class="card-content list">
               <paper-icon-item disabled>
                 <iron-icon icon="icons:feedback" item-icon></iron-icon>
-                <paper-item-body>[[localize('dcamp-location-description')]]</paper-item-body>
+                <paper-item-body>[[localize(where.location-description)]]</paper-item-body>
               </paper-icon-item>
               <paper-icon-item disabled>
                 <iron-icon icon="icons:location" item-icon></iron-icon>
                 <paper-item-body two-line>
-                  <div>[[localize('dcamp-location-address')]]</div>
+                  <div>[[localize(where.location-address)]]</div>
                 </paper-item-body>
               </paper-icon-item>
             </div>
             <div class="card-actions">
               <a class="bottom-link"
-                 href$="https://www.google.com/maps/dir/[[app.data.dcamp-location.pointer.latitude]],[[app.data.dcamp-location.pointer.longitude]]/@[[app.data.dcamp-location.pointer.latitude]],[[app.data.dcamp-location.pointer.longitude]],18z"
+                 href$="https://www.google.com/maps/dir/[[where.pointer.latitude]],[[where.pointer.longitude]]/@[[where.pointer.latitude]],[[where.pointer.longitude]],18z"
                  target="_blank"
                  rel="noopener noreferrer"
               >
@@ -219,7 +220,7 @@
         },
 
         observers: [
-          'setImages(app.data.dcamp-location.images)'
+          'setImages(where.images)'
         ],
 
         setImages: function (images) {
@@ -232,6 +233,7 @@
               that.nextImage();
             }, 4000);
           }
+
         },
 
         previousImage: function () {

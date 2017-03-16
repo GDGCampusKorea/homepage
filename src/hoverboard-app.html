@@ -119,6 +119,7 @@
       sessions="{{sessions}}"
       schedule="{{schedule}}"
       posts="{{posts}}"
+      events="{{events}}"
     ></app-data>
 
     <firebase-app
@@ -135,7 +136,7 @@
       user="{{app.user}}"
     >
     </firebase-auth>
-
+  
     <app-drawer-layout id="drawerLayout" drawer-width="599px" force-narrow>
 
       <app-drawer
@@ -183,6 +184,11 @@
                      route="{{subRoute}}"
                      posts="{{posts}}"></blog-page>
 
+          <event-page name="event"
+                     app="{{app}}"
+                     route="{{subRoute}}"
+                     events="{{events}}"></event-page>
+
           <speakers-page name="speakers"
                          app="{{app}}"
                          route="{{subRoute}}"
@@ -196,9 +202,6 @@
 
           <team-page name="team"
                      app="{{app}}"></team-page>
-
-          <hackathon-page name="hackathon"
-                      app="{{app}}"></hackathon-page>
 
         </neon-animated-pages>
       </div>
@@ -262,8 +265,7 @@
             HOVERBOARD.ServiceWorkerRegistration.register();
             // this.importHref(this.resolveUrl('pages/schedule-page.html'), null, null, true);
             // this.importHref(this.resolveUrl('pages/speakers-page.html'), null, null, true);
-            // this.importHref(this.resolveUrl('pages/blog-page.html'), null, null, true);
-            this.importHref(this.resolveUrl('pages/hackathon-page.html'), null, null, true);
+            this.importHref(this.resolveUrl('pages/event-page.html'), null, null, true);
           }.bind(this));
         },
 
