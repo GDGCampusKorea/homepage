@@ -130,16 +130,16 @@
     }],
     "logo" :
     [
+      {
+        "title": "장소 후원",
+        "logos": [
           {
-            "title": "장소 후원",
-            "logos": [
-            {
-              "name": "D.Camp",
-              "url": "http://dcamp.kr/",
-              "logoUrl": "../images/logos/dcamp-logo.svg"
-            }
-            ]
+            "name": "D.Camp",
+            "url": "http://dcamp.kr/",
+            "logoUrl": "../images/logos/dcamp-logo.svg"
           }
+        ]
+      }
     ],
     "location" : "dcamp"
   },
@@ -153,6 +153,100 @@
     "brief": "GDG DevFest Ukraine 2015 is now over. It was a great success. We are happy to share with you some facts, emotions and, of course, photos from the biggest Google Developers Conference in Ukraine!",
     "person" : [{
       "members": [
+        {
+          "name": "임원균",
+          "photoUrl": "/images/people/wonkyun.jpg",
+          "nick": "Corikachu",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "https://www.facebook.com/corikachu",
+              "name": "Facebook"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/corikachu",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "website",
+              "link": "http://corikachu.github.io/",
+              "name": "Blog"
+            }
+          ]
+        },
+        {
+          "name": "김원재",
+          "photoUrl": "/images/people/wonjea.jpg",
+          "nick": "Corikachu",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "https://www.facebook.com/akkiros",
+              "name": "Facebook"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/akkiros",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "website",
+              "link": "https://akkiros.github.io",
+              "name": "Blog"
+            }
+          ]
+        },
+        {
+          "name": "윤재석",
+          "photoUrl": "/images/people/jakeyoon.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "nick": "Jake Yoon",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "https://www.facebook.com/yjaeseok",
+              "name": "Facebook"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/yjaeseok",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "website",
+              "link": "http://yjaeseok.tistory.com/",
+              "name": "Blog"
+            }
+          ],
+          "title": "예비아빠"
+        },
+        {
+          "name": "방한미루",
+          "photoUrl": "/images/people/hanmilu_bang.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "nick": "Luis Bang",
+          "socials": [
+            {
+              "icon": "facebook",
+              "link": "https://www.facebook.com/luis.hanmilu",
+              "name": "Facebook"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/hanmilu-bang-06723460/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "Instagram",
+              "link": "https://www.instagram.com/luis_hanmilu/",
+              "name": "Instagram"
+            }
+          ],
+          "title":""
+        },
         {
           "name": "강경완",
           "photoUrl": "/images/people/kyeongwan.jpg",
@@ -185,7 +279,7 @@
           "title": ""
         }
       ],
-      "title": "도움 주신 분들"
+      "title": "도움주신분 / 스피커"
     }],
     "location" : "maru180"
   }
