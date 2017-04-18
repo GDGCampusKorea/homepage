@@ -282,5 +282,26 @@
       "title": "도움주신분 / 스피커"
     }],
     "location" : "maru180"
+  },
+  {
+    "id": "april-designer-event",
+    "title": "GDG Korea Campus 4월 디자이너 MeetUp",
+    "date": "2017-04-29",
+    "primaryColor": "#FF9800",
+    "secondaryColor": "#FF9800",
+    "image": "/images/posts/april_designer.png",
+    "brief": "GDG DevFest Ukraine 2015 is now over. It was a great success. We are happy to share with you some facts, emotions and, of course, photos from the biggest Google Developers Conference in Ukraine!",
+    "person" : [{
+      "members": [
+        {
+          "name": "이다영",
+          "photoUrl": "/images/people/dayeong.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "title": ""
+        }
+      ],
+      "title": "Event Organizer"
+    }],
+    "location" : "dcamp"
   }
 ]
