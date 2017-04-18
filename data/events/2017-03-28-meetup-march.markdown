@@ -39,12 +39,6 @@
 
 <br>
 
-<div class="text-center">
-<a href="https://goo.gl/forms/AMnwGCVKJMaQdHI03" target="_blank" class="style-scope header-content" style="color: white; ">
-  <paper-button class="primary style-scope header-content x-scope paper-button-0" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">APPLY</paper-button>
-</a>
-</div>
-
 <br>
 <br>
 <h2><center>SCHEDULE</center></h2>
