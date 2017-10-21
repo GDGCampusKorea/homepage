@@ -303,5 +303,26 @@
       "title": "Event Organizer"
     }],
     "location" : "dcamp"
+  },
+  {
+    "id": "1-year-event",
+    "title": "GDG Korea Campus 1주년",
+    "date": "2017-11-03",
+    "primaryColor": "#FF9800",
+    "secondaryColor": "#FF9800",
+    "image": "/images/posts/april_designer.png",
+    "brief": "GDG DevFest Ukraine 2015 is now over. It was a great success. We are happy to share with you some facts, emotions and, of course, photos from the biggest Google Developers Conference in Ukraine!",
+    "person" : [{
+      "members": [
+        {
+          "name": "강경완",
+          "photoUrl": "/images/people/dayeong.jpg",
+          "companyLogo": "/images/logos/gdg-kc.png",
+          "title": ""
+        }
+      ],
+      "title": "Event Organizer"
+    }],
+    "location" : "dcamp"
   }
 ]
