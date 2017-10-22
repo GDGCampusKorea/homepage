@@ -16,21 +16,68 @@
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "hoverboard-master",
-    "domain": "hoverboard-master.firebaseapp.com",
-    "database": "https://hoverboard-master.firebaseio.com",
-    "api": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
-    "userSessionsPath": "/userSessions",
-    "ratingsPath": "/ratings",
-    "indexedDbSession": "hoverboard"
+    "name": "gdg-korea-campus",
+    "domain": "gdg-korea-campus.firebaseapp.com",
+    "database": "https://gdg-korea-campus.firebaseio.com",
+    "api": "AIzaSyAGW5QK6LsRtQDlCkReviwwnCtArNo6M1w",
+    "userSessionsPath": "/userSessions"
   },
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
   },
-  "dateFormat": {
-    "locale": "en-US",
-    "blog": {"month": "short", "day": "numeric", "year": "numeric"}
+  "pages": {
+    "home": {
+      "headerSettings": {
+        "backgroundColor": "#FF9800",
+        "backgroundImage": "/images/backgrounds/home.png",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff",
+        "video": {
+          "title": "GDG Korea Campus",
+          "youtubeId": "TdpbgRgz6eE",
+          "text": "See how it was in 2016"
+        },
+        "hideLogo": true,
+        "minHeight": "360px"
+      }
+    },
+    "blog": {
+      "headerSettings": {
+        "backgroundColor": "#03a9f4",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "speakers": {
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "schedule": {
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "team": {
+      "headerSettings": {
+        "backgroundColor": "#009688",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
+    "hackathon": {
+      "headerSettings": {
+        "backgroundColor": "#FF9800",
+        "backgroundImage": "/images/backgrounds/home.png",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    }
   },
   "hashtag": "dfua",
   "disqusShortName": "hoverboard-gdg-x",
@@ -48,44 +95,134 @@
       "permalink": "/blog/"
     },
     {
-      "route": "schedule",
-      "permalink": "/schedule/"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/"
-    },
-    {
       "route": "team",
       "permalink": "/team/"
+    },
+    {
+      "route": "hackathon",
+      "permalink": "/hackathon/"
     }
   ],
+  "url": "https://gdg-korea-campus.firebaseapp.com/",
+  "partnershipProposition": "http://bit.ly/df16-sponsor",
+  "disqusShortName": "hoverboard-gdg-x",
+  "languages": [
+    {
+      "name": "한국어",
+      "key": "en"
+    }
+  ],
+  "footerBlocks": [
+    {
+      "title": "for-visitors",
+      "links": [
+        {
+          "text": "team",
+          "url": "/team/"
+        },
+        {
+          "text": "google-developers",
+          "url": "https://developers.google.com/",
+          "newTab": true
+        },
+        {
+          "text": "gdgkr",
+          "url": "http://slack.gdg.kr",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "for-partners",
+      "links": [
+        {
+          "text": "google-developers",
+          "url": "https://developers.google.com/",
+          "newTab": true
+        }
+      ]
+    }
+  ],
+  "contactBlock": {
+    "links": [
+      {
+        "text": "gdgkoreacampus@gmail.com",
+        "url": "mailto:gdgkoreacampus@gmail.com"
+      }
+    ]
+  },
+  "tickets": {
+    "url": "http://2event.com/events/630032",
+    "elements": [
+      {
+        "name": "student-ticket",
+        "price": 500,
+        "currency": "₴",
+        "starts": "student-ticket-starts",
+        "ends": "student-ticket-ends",
+        "info": "student-ticket-info",
+        "soldOut": false
+      },
+      {
+        "name": "early-ticket",
+        "price": 750,
+        "currency": "₴",
+        "starts": "early-ticket-starts",
+        "ends": "early-ticket-ends",
+        "info": "early-ticket-info",
+        "soldOut": true
+      },
+      {
+        "name": "lazy-ticket",
+        "price": 1000,
+        "currency": "₴",
+        "starts": "lazy-ticket-starts",
+        "ends": "lazy-ticket-ends",
+        "soldOut": false
+      }
+    ]
+  },
+  "teamPageTitle": "team-page-title",
+  "teamPageText": "team-page-text",
+  "statistics": [
+    {
+      "counter": "400+",
+      "caption": "persons"
+    },
+    {
+      "counter": 4,
+      "caption": "events"
+    },
+    {
+      "counter": 17,
+      "caption": "sessions"
+    }
+  ],
+  "hashtag": "dfua",
   "social": [
     {
-      "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
+      "name": "google",
+      "nickname": "100263126816983481169",
+      "url": "https://developers.google.com/groups/chapter/100263126816983481169/"
     },
     {
       "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
+      "nickname": "100263126816983481169",
+      "url": "https://plus.google.com/100263126816983481169"
     },
     {
       "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
+      "nickname": "GDGKoreaCampus",
+      "url": "https://www.facebook.com/groups/gdg.korea.campus/"
     },
     {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+      "name": "slack",
+      "nickname": "GDGKoreaCampus",
+      "url": "https://festi.kr/zlack/team/T1YJMK00P/26/invitation/"
     }
   ],
   "location": {
-    "apiKey": "",
-    "name": "Pivdennyi Expo Center",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "apiKey": "AIzaSyAGW5QK6LsRtQDlCkReviwwnCtArNo6M1w",
     "link": "https://www.facebook.com/expopivdennij",
     "pointer": {
       "latitude": 49.809841,
@@ -102,72 +239,26 @@
       "/images/backgrounds/location_3.jpg"
     ]
   },
-  "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
-    "photos": {
-      "big": "/images/backgrounds/2015_1.jpg",
-      "small": [
-        "/images/backgrounds/2015_2.jpg",
-        "/images/backgrounds/2015_3.jpg"
-      ]
-    }
+  "dcamp-location": {
+    "apiKey": "AIzaSyAGW5QK6LsRtQDlCkReviwwnCtArNo6M1w",
+    "link": "https://www.facebook.com/expopivdennij",
+    "pointer": {
+      "latitude": 37.508091,
+      "longitude": 127.045075,
+      "zoom": 17
+    },
+    "mapCenter": {
+      "latitude": 37.508091,
+      "longitude": 127.045075
+    },
+    "images": [
+      "/images/backgrounds/dcamp1.jpg",
+      "/images/backgrounds/dcamp2.jpg"
+    ]
   },
-  "pages": {
-    "home": {
-      "title": "Home",
-      "headerSettings": {
-        "backgroundColor": "#FF9800",
-        "backgroundImage": "/images/backgrounds/home.png",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff",
-        "video": {
-          "title": "GDG DevFest Ukraine 2016",
-          "youtubeId": "TdpbgRgz6eE",
-          "text": "See how it was in 2016"
-        },
-        "hideLogo": true,
-        "minHeight": "360px"
-      }
-    },
-    "blog": {
-      "title": "Blog",
-      "headerSettings": {
-        "backgroundColor": "#03a9f4",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "speakers": {
-      "title": "Speakers",
-      "headerSettings": {
-        "backgroundColor": "#3f51b5",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "schedule": {
-      "title": "Schedule",
-      "headerSettings": {
-        "backgroundColor": "#673ab7",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "team": {
-      "title": "Team",
-      "headerSettings": {
-        "backgroundColor": "#009688",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "cod": {
-      "title": "Code of Conduct",
-      "headerSettings": {
-        "backgroundColor": "#673ab7",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    }
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "callToAction": {
+    "videoTitle": "action-title",
+    "videoId": "DfMnJAzOFng"
   }
 }
