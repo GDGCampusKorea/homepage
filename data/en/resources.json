@@ -1,16 +1,18 @@
 {
   "title": "GDG Korea Campus",
-  "dates": "Feb, 17-18, 2017",
   "home": "Home",
   "blog": "Blog",
+  "event": "Event",
   "speakers": "Speakers",
   "schedule": "Schedule",
   "team": "GDG Korea Campus Team",
   "location-address-short": "Seoul, Korea",
   "motto": "Be a GDG Member. Develop together!",
-  "next-event-title": "Fire based Hackthon [불붙은 해커톤]",
+  "next-event-title": "GDG Korea Campus 3월 밋업 [너의 고민은!]",
+  "dates": "Mar, 28, 2017",
   "c4p": "Become a speaker",
   "buy-ticket": "Apply",
+  "next_event_url": "http://gdg-korea-campus.firebaseapp.com/event/detail/meetup-march/",
   "back-to-top": "Top",
   "subscribe": "Subscribe",
   "your-email": "Your email",
@@ -89,5 +91,8 @@
   "hackathon": "Fire based Hackathon 2017",
   "dcamp-location-title": "D.CAMP",
   "dcamp-location-description": "D.CAMP의 ‘D’는 ‘Dream’에서 따왔습니다. ‘Dynamic’, ‘Do it yourself’ 같은 의미도 있습니다.",
-  "dcamp-location-address": "서울시 강남구 역삼동 683-34 새롬빌딩 4~6층"
+  "dcamp-location-address": "서울시 강남구 역삼동 683-34 새롬빌딩 4~6층",
+  "maru-location-title": "MARU 180",
+  "maru-location-description": "MARU180은 교육, 투자, 네트워킹 등 창업 관련 종합 솔루션을 제공하는 공간입니다. 강남구 역삼로 180에 위치해 있습니다.",
+  "maru-location-address": "서울시 강남구 역삼로 180(역삼동, 790-6)"
 }

@@ -67,18 +67,20 @@
         app="{{app}}"
         schedule="[[schedule]]"
         selected-day="[[app.selectedDay]]"
-        filters="{{filters}}"
       ></schedule-subnav>
 
       <neon-animated-pages selected="[[app.selectedDay]]" attr-for-selected="name">
-        <template is="dom-repeat" items="[[schedule]]" as="day" on-dom-change="updateCascadedNodes">
           <schedule-day
-            name$="day[[_addToValue(index, 1)]]"
+            name="apply"
             app="{{app}}"
             day="[[day]]"
-            filters="[[filters]]"
           ></schedule-day>
-        </template>
+          <schedule-day
+            name="allEvent"
+            app="{{app}}"
+            day="[[day]]"
+            
+          ></schedule-day>
         <template is="dom-if" if="{{app.user}}">
           <my-schedule
             name="myschedule"
@@ -138,9 +140,9 @@
         },
 
         observers: [
-          '_routePageChanged(routeData.day)',
-          '_userChanged(app.user)',
-          '_queryParamsChanged(queryParams, sessions)',
+          '_routePageChanged(routeData.day, app.user)',
+          // '_userChanged(app.user)',
+          '_queryParamsChanged(queryParams)',
           '_filtersChanged(filters.splices)'
         ],
 
@@ -148,24 +150,18 @@
           'iron-overlay-closed': '_resetSessionIdParam'
         },
 
-        _routePageChanged: function (day) {
+        _routePageChanged: function (day, user) {
           if (this.selected) {
             if (!day) {
-              var dayToSelect = null;
-              var today = new Date().toISOString().substring(0, 10);
-              if (this.schedule) {
-                for (var i = 0, length = this.schedule.length; i < length; i++) {
-                  if (today === this.schedule[i].date) {
-                    dayToSelect = 'day' + (i + 1);
-                  }
-                }
-              }
-              this.set('routeData.day', (dayToSelect || 'day1'));
+                var dayToSelect = null;    
+                this.set('routeData.day', 'apply');
             } else if (day === 'myschedule' && !this.app.user) {
-              this.set('routeData.day', 'day1');
+                HOVERBOARD.Elements.Template.signIn();
+                this.set('routeData.day', 'allEvent');
             } else if (this.app.selectedDay !== day) {
-              this.set('app.selectedDay', day);
+                this.set('app.selectedDay', day);
             }
+
           }
         },
 
@@ -208,11 +204,9 @@
           !this.$.sessionDetails.opened && this.set('queryParams.sessionId', null);
         },
 
-        _userChanged: function (user) {
-          if (!user && this.app.selectedDay === 'myschedule') {
-            this.set('routeData.day', 'day1');
-          }
-        }
+        // _userChanged: function (user) {
+        
+        // }
 
       });
 

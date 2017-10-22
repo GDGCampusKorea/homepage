@@ -44,7 +44,7 @@
         "tabBarColor": "#fff"
       }
     },
-    "hackathon": {
+     "event": {
       "headerSettings": {
         "backgroundColor": "#FF9800",
         "backgroundImage": "/images/posts/large.jpg",
@@ -67,10 +67,10 @@
     {
       "route": "team",
       "permalink": "/team/"
-    },
+    },   
     {
-      "route": "hackathon",
-      "permalink": "/hackathon/"
+      "route": "event",
+      "permalink": "/event/"
     }
   ],
   "url": "https://gdg-korea-campus.firebaseapp.com/",
@@ -122,7 +122,7 @@
     ]
   },
   "tickets": {
-    "url": "http://gdg-korea-campus.firebaseapp.com/hackathon/",
+    "url": "http://gdg-korea-campus.firebaseapp.com/",
     "elements": [
       {
         "name": "student-ticket",
@@ -156,11 +156,11 @@
   "teamPageText": "team-page-text",
   "statistics": [
     {
-      "counter": "400+",
+      "counter": "500+",
       "caption": "persons"
     },
     {
-      "counter": 4,
+      "counter": 5,
       "caption": "events"
     },
     {
@@ -192,7 +192,9 @@
     }
   ],
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cvo0ucp8j6g0eb43bf13q2s0elk?authkey=CPiTpc_Hk9TWAw",
+    "albumUrl1": "https://plus.google.com/events/gallery/cvo0ucp8j6g0eb43bf13q2s0elk?authkey=CPiTpc_Hk9TWAw",
+    "albumUrl2": "https://plus.google.com/events/gallery/cvo0ucp8j6g0eb43bf13q2s0elk?authkey=CPiTpc_Hk9TWAw",
+    "albumUrl3": "https://plus.google.com/events/gallery/cvo0ucp8j6g0eb43bf13q2s0elk?authkey=CPiTpc_Hk9TWAw",
     "photos": {
       "big": "/images/backgrounds/2017_1.jpg",
       "small": [
@@ -220,8 +222,11 @@
     ]
   },
   "dcamp-location": {
-    "apiKey": "AIzaSyAGW5QK6LsRtQDlCkReviwwnCtArNo6M1w",
-    "link": "https://www.facebook.com/expopivdennij",
+    "location-title" : "dcamp-location-title",
+    "location-address" : "dcamp-location-address",
+
+    "location-description" : "dcamp-location-description",
+    "link": " ",
     "pointer": {
       "latitude": 37.508091,
       "longitude": 127.045075,
@@ -234,6 +239,28 @@
     "images": [
       "/images/backgrounds/dcamp1.jpg",
       "/images/backgrounds/dcamp2.jpg"
+    ]
+  },
+  "map":{
+    "apiKey" : "AIzaSyAGW5QK6LsRtQDlCkReviwwnCtArNo6M1w"
+  },
+  "maru-location": {
+    "location-title" : "maru-location-title",
+    "location-address" : "maru-location-address",
+    "location-description" : "maru-location-description",
+    "link": " ",
+    "pointer": {
+      "latitude": 37.495458,
+      "longitude":  127.038867,
+      "zoom": 16
+    },
+    "mapCenter": {
+      "latitude": 37.495458,
+      "longitude": 127.038867
+    },
+    "images": [
+      "/images/backgrounds/maru01.jpg",
+      "/images/backgrounds/maru02.jpg"
     ]
   },
   "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",

@@ -112,85 +112,67 @@
   <script>
     (function () {
       'use strict';
-
       Polymer({
         is: 'app-data',
-
         properties: {
           app: {
             type: Object,
             notify: true
           },
-
           postsSource: {
             type: String,
             value: 'data/blog.json'
           },
-
           posts: {
             type: Array,
             notify: true
           },
-
           speakers: {
             type: Array,
             notify: true
           },
-
           sessions: {
             type: Array,
             notify: true
           },
-
           schedule: {
             type: Array,
             notify: true
           },
-
           _speakersRaw: {
             type: Object
           },
-
           _sessionsRaw: {
             type: Object
           },
-
           _scheduleRaw: {
             type: Array
           }
         },
-
         observers: [
           '_generateSchedule(_speakersRaw, _sessionsRaw, _scheduleRaw)'
         ],
-
         ready: function () {
           this.app = this.app || {};
         },
-
       _generateSchedule: function () {
         var myWorker = new Worker('./scripts/helper/schedule-webworker.js');
-
         myWorker.postMessage({
           speakers: this._speakersRaw,
           sessions: this._sessionsRaw,
           schedule: this._scheduleRaw
         });
-
         myWorker.addEventListener('message', function(e) {
           this.set('schedule', e.data.schedule);
           this.set('sessions', e.data.sessions);
           this.set('speakers', e.data.speakers);
           myWorker.terminate();
         }.bind(this), false);
-
       },
-
       _reversePosts: function (response) {
         this.posts = response.detail.response.reverse();
       }
     });
-
   }());
   </script>
 </dom-module>

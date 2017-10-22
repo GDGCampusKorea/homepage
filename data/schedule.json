@@ -1,0 +1,96 @@
+[{
+    "date": "2016-09-09",
+    "dateReadable": "신청 가능한 이벤트",
+    "timeslots": [
+     {
+        "startTime": "03:28",
+        "sessions": [
+            [125]
+        ]
+    }]
+}, {
+    "date": "2016-09-10",
+    "dateReadable": "역대 이벤트",
+    "tracks": [{
+        "title": "Expo hall"
+    }, {
+        "title": "Conference hall"
+    }, {
+        "title": "Workshops hall"
+    }],
+    "timeslots": [{
+        "startTime": "09:30",
+        "endTime": "10:10",
+        "sessions": [
+            [135]
+        ]
+    }, {
+        "startTime": "10:10",
+        "endTime": "10:50",
+        "sessions": [
+            [114],
+            [117],
+            [121]
+        ]
+    }, {
+        "startTime": "11:00",
+        "endTime": "11:40",
+        "sessions": [
+            [122],
+            [113],
+            [121]
+        ]
+    }, {
+        "startTime": "11:50",
+        "endTime": "12:30",
+        "sessions": [
+            [104],
+            [124],
+            [121]
+        ]
+    }, {
+        "startTime": "12:30",
+        "endTime": "14:00",
+        "sessions": [
+            [133]
+        ]
+    }, {
+        "startTime": "14:00",
+        "endTime": "14:40",
+        "sessions": [
+            [108],
+            [128],
+            [102]
+        ]
+    }, {
+        "startTime": "14:50",
+        "endTime": "15:30",
+        "sessions": [
+            [110],
+            [123],
+            [102]
+        ]
+    }, {
+        "startTime": "15:30",
+        "endTime": "16:00",
+        "sessions": [
+            [134]
+        ]
+    }, {
+        "startTime": "16:00",
+        "endTime": "16:40",
+        "sessions": [
+            [131],
+            [140],
+            [130]
+        ]
+    }, {
+        "startTime": "16:50",
+        "endTime": "17:30",
+        "sessions": [
+            [115],
+            [140],
+            [130]
+        ]
+    }]
+}]

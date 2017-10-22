@@ -41,8 +41,10 @@
       }
 
       .minutes {
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: -0.04em;
         margin-left: 3px;
-        font-size: 16px;
       }
 
       .session {
@@ -68,11 +70,7 @@
     </style>
 
     <template id='mySchedule' is="dom-repeat" items="{{schedule}}" as="day">
-      <div class="timeslot" layout vertical>
-        <div class="start-time">
-          <span class="hours">[[day.dateReadable]]</span>
-        </div>
-      </div>
+      
 
       <template is="dom-if" if="{{app.user.sessions}}">
         <template is="dom-repeat" items="{{day.timeslots}}" as="timeslot"
@@ -80,7 +78,7 @@
           <div class="timeslot" layout vertical$="{{app.isPhoneSize}}" horizontal$="{{!app.isPhoneSize}}">
 
             <div class="start-time">
-              <span class="hours">[[_splitText(timeslot.startTime, ':', 0)]]</span>
+              <span class="hours">[[_splitText(timeslot.startTime, ':', 0)]].</span>
               <span class="minutes">[[_splitText(timeslot.startTime, ':', 1)]]</span>
             </div>
 

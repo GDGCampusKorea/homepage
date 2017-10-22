@@ -53,7 +53,8 @@
         if (!this.app.user.sessions) {
           this.app.user.sessions = {};
         }
-        return !!this.app.user.sessions[id];
+        // console.log(this.app.user.sessions);
+        return this.app.user.sessions[id];
       }
 
     };

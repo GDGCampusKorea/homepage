@@ -231,7 +231,7 @@
             this._updateHeaderSettings();
             this.notifyPath('_post.date', new Date(this._post.posted).toLocaleString('{$ dateFormat.locale $}', {$ dateFormat.blog | dump | safe $}));
 
-            this._postUrl = '/data/posts/' + this._post.posted + '-' + this.postId + '.markdown';
+            this._postUrl = '/data/events/' + this._post.posted + '-' + this.postId + '.markdown';
             this.$.ajax.generateRequest();
           }
         },
