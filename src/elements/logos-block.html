@@ -85,6 +85,11 @@
           </div>
         </div>
       </template>
+      <template is="dom-repeat" items="[[logos]]" as="block">
+        <div class="logos-block-wrapper">
+          <h5 class="logos-block-title text-center">[[block.title]]</h5>
+        </div>
+      </template>
     </div>
 
   </template>
@@ -96,7 +101,6 @@
       Polymer({
 
         is: 'logos-block',
-
         _trackClick: function () {
           HOVERBOARD.Analytics.trackEvent('sponsors', 'open proposition', 'Become a partner');
         }

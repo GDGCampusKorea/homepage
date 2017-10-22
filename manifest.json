@@ -1,6 +1,6 @@
 {
-  "name": "{$ title $}",
-  "short_name": "{$ webapp.shortName $}",
+  "name": "GDG Korea Campus",
+  "short_name": "GDG Korea Campus",
   "icons": [
     {
       "src": "images/touch/homescreen-48.png",

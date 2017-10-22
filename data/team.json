@@ -3,28 +3,18 @@
     "members": [
       {
         "name": "강경완",
-        "photoUrl": "/images/people/kyeongwan.png",
+        "photoUrl": "/images/people/kyeongwan.jpg",
         "companyLogo": "/images/logos/gdg-kc.png",
         "nick": "@lucas",
         "socials": [
           {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+OlehZasadnyy",
-            "name": "Google+"
-          },
-          {
             "icon": "facebook",
-            "link": "https://www.facebook.com/oleh.zasadnyy",
+            "link": "https://www.facebook.com/kyeongwan.k",
             "name": "Facebook"
           },
           {
-            "icon": "twitter",
-            "link": "https://twitter.com/ozasadnyy",
-            "name": "Twitter"
-          },
-          {
             "icon": "website",
-            "link": "http://o.zasadnyy.com/",
+            "link": "http://kyeongwan.kr/",
             "name": "Blog"
           }
         ],
@@ -32,108 +22,26 @@
       },
       {
         "name": "이가은",
-        "photoUrl": "/images/people/lika.png",
+        "photoUrl": "/images/people/lika.jpg",
         "companyLogo": "/images/logos/gdg-kc.png",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+SofiaHuts",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/sophie.huts.7",
-            "name": "Facebook"
-          }
-        ],
+        "nick": "@lika",
         "title": ""
       },
       {
         "name": "박혜정",
-        "photoUrl": "/images/people/hyejeong.png",
+        "photoUrl": "/images/people/hyejeong.jpg",
         "companyLogo": "/images/logos/gdg-kc.png",
-        "socials": [
-          {
-            "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/zasadnyy",
-            "name": "Linkedin"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/zasadnyy",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://v.zasadnyy.com/",
-            "name": "Blog"
-          }
-        ],
+        "nick": "@hyejeong",
         "title": ""
       },
       {
         "name": "이다영",
-        "photoUrl": "/images/people/.jpg",
+        "photoUrl": "/images/people/dayeong.jpg",
         "companyLogo": "/images/logos/gdg-kc.png",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/104036874811391520583",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/marta.maxymiak",
-            "name": "Facebook"
-          }
-        ],
-        "title": ""
+        "title": "",
+        "nick": "@dayoung"
       }
     ],
-    "title": "Ogernizer Team"
-  },
-  {
-    "title": "Program Committee",
-    "members": [
-      {
-        "name": "Ihor Dvoretskyi",
-        "photoUrl": "/images/people/ihor_dvoretskyi.jpg",
-        "socials": [
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/idvoretskyi",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/idvoretskyi",
-            "name": "Twitter"
-          }
-        ],
-        "title": "Cloud stream"
-      },
-      {
-        "name": "Dmytro Danylyk",
-        "photoUrl": "/images/people/dmytro_danylyk.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+DmytroDanylyk",
-            "name": "Google+"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/dmytrodanylyk",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://www.dmytrodanylyk.com/#/about",
-            "name": "Website"
-          }
-        ],
-        "title": "Android Stream"
-      }
-    ]
+    "title": "Organizer"
   }
 ]

@@ -138,13 +138,14 @@
               
               <h2 class="motto">{$ motto $}</h2>
               <div class="open-video" on-tap="_nextEvent">
-                <iron-icon icon="play"></iron-icon>
-                Next Event
+                Our Next Event
               </div>
-              <h3 class="event-title" on-tap="_nextEvent">{{ next-event-title }}</h3>
+              <h3 class="event-title">{{ next-event-title }}</h3>
               <h3 class="dates">{$ dates $}</h3>
               <div class="action-buttons">
-                <paper-button class="primary" on-tap="_scrollToTickets" raised>{$ buyTicket $}</paper-button>
+                <a href="https://gdg-korea-campus.firebaseapp.com/hackathon/">
+                  <paper-button class="primary" raised>{$ buyTicket $}</paper-button>
+                </a>
               </div>
             </div>
           </div>
@@ -192,7 +193,7 @@
 
         _nextEvent: function () {
           // HOVERBOARD.Elements.Template.openVideo(this.app.data.pages.home.headerSettings.video.title,
-          //   this.app.data.pages.home.headerSettings.video.youtubeId, true);
+            // this.app.data.pages.home.headerSettings.video.youtubeId, true);
           // HOVERBOARD.Analytics.trackEvent('video', 'watch', this.app.data.pages.home.headerSettings.video.title);
         },
 

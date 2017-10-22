@@ -23,7 +23,7 @@
     "userSessionsPath": "/userSessions"
   },
   "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
+    "url": "http://firebaseapp.us15.list-manage.com/subscribe?u=02dce72af3dbf68a4ce6d2dc5&id=3cf1c765fa",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
   },
   "pages": {
@@ -33,34 +33,8 @@
         "backgroundImage": "/images/backgrounds/home.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff",
-        "video": {
-          "title": "GDG Korea Campus",
-          "youtubeId": "TdpbgRgz6eE",
-          "text": "See how it was in 2016"
-        },
         "hideLogo": true,
         "minHeight": "360px"
-      }
-    },
-    "blog": {
-      "headerSettings": {
-        "backgroundColor": "#03a9f4",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "speakers": {
-      "headerSettings": {
-        "backgroundColor": "#3f51b5",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
-    "schedule": {
-      "headerSettings": {
-        "backgroundColor": "#673ab7",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
       }
     },
     "team": {
@@ -73,7 +47,7 @@
     "hackathon": {
       "headerSettings": {
         "backgroundColor": "#FF9800",
-        "backgroundImage": "/images/backgrounds/home.png",
+        "backgroundImage": "/images/posts/large.jpg",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
@@ -89,10 +63,6 @@
     {
       "route": "home",
       "permalink": "/"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/"
     },
     {
       "route": "team",
@@ -152,7 +122,7 @@
     ]
   },
   "tickets": {
-    "url": "http://2event.com/events/630032",
+    "url": "http://gdg-korea-campus.firebaseapp.com/hackathon/",
     "elements": [
       {
         "name": "student-ticket",
@@ -221,6 +191,16 @@
       "url": "https://festi.kr/zlack/team/T1YJMK00P/26/invitation/"
     }
   ],
+  "gallery": {
+    "albumUrl": "https://plus.google.com/events/gallery/cvo0ucp8j6g0eb43bf13q2s0elk?authkey=CPiTpc_Hk9TWAw",
+    "photos": {
+      "big": "/images/backgrounds/2017_1.jpg",
+      "small": [
+        "/images/backgrounds/2017_2.jpg",
+        "/images/backgrounds/2017_3.jpg"
+      ]
+    }
+  },
   "location": {
     "apiKey": "AIzaSyAGW5QK6LsRtQDlCkReviwwnCtArNo6M1w",
     "link": "https://www.facebook.com/expopivdennij",

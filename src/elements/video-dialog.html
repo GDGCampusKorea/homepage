@@ -52,7 +52,7 @@
       <span>[[videoTitle]]</span>
     </paper-toolbar>
     <div class="video-wrapper">
-      <google-youtube
+    <!--   <google-youtube
         id="video"
         class="video"
         video-id="[[youtubeId]]"
@@ -60,7 +60,7 @@
         height="100%"
         autohide="1"
         chromeless="[[disableControls]]"
-      ></google-youtube>
+      ></google-youtube> -->
     </div>
 
   </template>
@@ -108,16 +108,25 @@
             this.backdropElement.open();
           }
           this.playAnimation('entry');
-          this.$.video.play();
+          // this.$.video.play();
         },
 
         _renderClosed: function () {
-          this.$.video.seekTo(0);
-          this.$.video.pause();
+          // this.$.video.seekTo(0);
+          // this.$.video.pause();
+          // if (!this._secondLayer) {
+          //   this.backdropElement.close();
+          // }
+          // this.playAnimation('exit');
+
+        },
+
+        close: function(){
           if (!this._secondLayer) {
             this.backdropElement.close();
           }
           this.playAnimation('exit');
+
         },
 
         _onNeonAnimationFinish: function () {
