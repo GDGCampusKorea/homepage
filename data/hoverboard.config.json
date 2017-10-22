@@ -156,15 +156,15 @@
   "teamPageText": "team-page-text",
   "statistics": [
     {
-      "counter": "500+",
+      "counter": "800+",
       "caption": "persons"
     },
     {
-      "counter": 5,
+      "counter": 10,
       "caption": "events"
     },
     {
-      "counter": 17,
+      "counter": "40+",
       "caption": "sessions"
     }
   ],
