@@ -4,6 +4,9 @@
   },
   "hosting": {
     "public": "/",
+    "ignore": [
+      "**/.*"
+    ],
     "rewrites": [
       {
         "source": "**",

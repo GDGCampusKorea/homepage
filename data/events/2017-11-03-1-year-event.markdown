@@ -31,34 +31,73 @@
     </div>
     <div class="schedule__row ng-scope">
                 <div class="schedule__cell schedule__cell--time schedule__cell--time--long ng-binding">
-                <span>8:00 pm - 9:00 pm</span>
+                <span>8:00 pm - 8:15 pm</span>
                 </div>
-                <div class="schedule__cell ng-binding"><p>성장을 공유합니다. <br> 블라블라</p>
+                <div class="schedule__cell ng-binding"><p>당신은 개발자 입니까?<br> 장보우</p>
+                </div>
+                <div class="schedule__cell schedule__cell--right"><p>탈컴공을 꿈꾸던 컴공러의 휴학없는 8학기 그리고 개발자라는 단어에 얽힌 고민들을 공유합니다.</p>
+                </div>
+    </div>
+     <div class="schedule__row ng-scope">
+                <div class="schedule__cell schedule__cell--time schedule__cell--time--long ng-binding">
+                <span>8:15 pm - 8:30 pm</span>
+                </div>
+                <div class="schedule__cell ng-binding"><p>“어느날 갑자기 팀장이 되었다.”<br>방신우</p>
+                </div>
+                <div class="schedule__cell schedule__cell--right"><p>회사 상황이 급격히 변하며 팀장이 되었습니다.
+직급이 변하며 책임 범위와 이해관계도 변했습니다.<br>
+팀장으로 보낸 1년을 공유합니다.</p>
+                </div>
+    </div>
+     <div class="schedule__row ng-scope">
+                <div class="schedule__cell schedule__cell--time schedule__cell--time--long ng-binding">
+                <span>8:40 pm - 8:55 pm</span>
+                </div>
+                <div class="schedule__cell ng-binding"><p>한번 더 나에게 질풍같은 코딩을<br> 김준영</p>
+                </div>
+                <div class="schedule__cell schedule__cell--right"><p>코딩과제 피해 학점따던 학생이
+두번의 인턴을 통해 초보 개발자로 성장한 내용을 공유합니다<br></p>
+                </div>
+    </div>
+     <div class="schedule__row ng-scope">
+                <div class="schedule__cell schedule__cell--time schedule__cell--time--long ng-binding">
+                <span>8:55 pm - 9:05 pm</span>
+                </div>
+                <div class="schedule__cell ng-binding"><p>커뮤니티 활동을 하며 얻은 것들<br> 강경완</p>
+                </div>
+                <div class="schedule__cell schedule__cell--right"><p>커뮤니티 활동을 처음 시작할 때부터 지금까지 얻은 것과 성장한 것을 공유하고 회고합니다.</p>
+                </div>
+    </div>
+     <div class="schedule__row ng-scope">
+                <div class="schedule__cell schedule__cell--time schedule__cell--time--long ng-binding">
+                <span>9:05 pm - 9:15 pm</span>
+                </div>
+                <div class="schedule__cell ng-binding"><p>추후 공개 <br> 진겸</p>
                 </div>
                 <div class="schedule__cell schedule__cell--right">
                 </div>
     </div>
      <div class="schedule__row ng-scope">
                 <div class="schedule__cell schedule__cell--time schedule__cell--time--long ng-binding">
-                <span>9:00 pm - 9:45 pm</span>
+                <span>9:15 pm - 10:00 pm</span>
                 </div>
-                <div class="schedule__cell ng-binding"><p>성장을 주제로 이야기 합니다. <br> 블라블라</p>
+                <div class="schedule__cell ng-binding"><p>성장을 주제로 이야기 합니다. <br> 연사와 참여자들</p>
                 </div>
                 <div class="schedule__cell schedule__cell--right">
                 </div>
     </div>
      <div class="schedule__row ng-scope">
                 <div class="schedule__cell schedule__cell--time schedule__cell--time--long ng-binding">
-                <span>9:45 pm - 10:30 pm</span>
+                <span>10:00 pm - 10:45 pm</span>
                 </div>
-                <div class="schedule__cell ng-binding"><p>자유 네트워킹 <br> 블라블라</p>
+                <div class="schedule__cell ng-binding"><p>자유 네트워킹 </p>
                 </div>
                 <div class="schedule__cell schedule__cell--left">
                 </div>
         </div>
         <div class="schedule__row ng-scope">
                 <div class="schedule__cell schedule__cell--time schedule__cell--time--long ng-binding">
-                <span>10:30 pm - </span>
+                <span>10:45 pm - </span>
                 </div>
                 <div class="schedule__cell ng-binding"><p>After Talk 및 마무리</p>
                 </div>
@@ -81,7 +120,7 @@
 <br>
 
 <div class="text-center">
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSepnLzRhioOlfD6LYD1nlm9vcfRlMdvuqR8n8rROVmREGv74Q/viewform?usp=sf_link" target="_blank" class="style-scope header-content" style="color: white; ">
+<a href="https://www.meetup.com/ko-KR/GDG-Campus/events/244427149/" target="_blank" class="style-scope header-content" style="color: white; ">
   <paper-button class="primary style-scope header-content x-scope paper-button-0" raised="" role="button" tabindex="0" animated="" aria-disabled="false" elevation="1">APPLY</paper-button>
 </a>
 </div>
@@ -91,7 +130,7 @@
 ### 소개합니다! GDG Korea Campus!!
 <img src="/images/logos/gdg-kc.png" style="width: 50%;"/>
 
->Google이 지원하는 GDG 커뮤니티의 일종인 GDG Korea Campus는 **한국의 예비 개발자와 함께 성장하고 교류하는 커뮤니티입니다.** 예비 개발자와 디자이너들에게 성장에 도움이 되는 오프라인 이벤트를 진행하며, 온라인에서는 Slack과 Facebook 커뮤니티 그룹에서 정보를 교류합니다.
+>Google이 지원하는 GDG 커뮤니티의 일종인 GDG Korea Campus는 **한국의 예비 개발자와 함께 성장하고 교류하는 커뮤니티입니다.** 예비 개발자들에게 성장에 도움이 되는 오프라인 이벤트를 진행하며, 온라인에서는 Slack과 Facebook 커뮤니티 그룹에서 정보를 교류합니다.
 
 >참여에는 학교나 학년의 제한이 없는 자유로운 형태이니 온라인 커뮤니티를 통해서 GDG Korea Campus를 시작해보세요!
 

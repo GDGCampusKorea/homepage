@@ -21,18 +21,18 @@
         "title": "잉여 프로그래머"
       },
       {
-        "name": "박혜정",
-        "photoUrl": "/images/people/hyejeong.jpg",
+        "name": "양희찬",
+        "photoUrl": "/images/people/heechan.png",
         "companyLogo": "/images/logos/gdg-kc.png",
-        "nick": "@hyejeong",
+        "nick": "@heechan",
         "title": ""
       },
       {
-        "name": "이다영",
-        "photoUrl": "/images/people/dayeong.jpg",
+        "name": "진겸",
+        "photoUrl": "/images/people/kevin2.png",
         "companyLogo": "/images/logos/gdg-kc.png",
         "title": "",
-        "nick": "@dayoung"
+        "nick": "@kevinoriginal"
       }
     ],
     "title": "Organizer"

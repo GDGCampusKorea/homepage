@@ -134,15 +134,15 @@
   "teamPageText": "team-page-text",
   "statistics": [
     {
-      "counter": "500+",
+      "counter": "800+",
       "caption": "persons"
     },
     {
-      "counter": 5,
+      "counter": 10,
       "caption": "events"
     },
     {
-      "counter": 17,
+      "counter": "40+",
       "caption": "sessions"
     }
   ],
@@ -169,7 +169,6 @@
       "url": "https://festi.kr/zlack/team/T1YJMK00P/26/invitation/"
     }
   ],
-  "tweetsSource": "/data/tweets.json",
   "gallery": {
     "albumUrl1": "https://plus.google.com/events/gallery/cvo0ucp8j6g0eb43bf13q2s0elk?authkey=CPiTpc_Hk9TWAw",
     "albumUrl2": "https://plus.google.com/events/gallery/cvo0ucp8j6g0eb43bf13q2s0elk?authkey=CPiTpc_Hk9TWAw",
