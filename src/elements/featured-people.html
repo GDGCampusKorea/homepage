@@ -138,11 +138,13 @@
         },
 
         _peopleChanged: function () {
-          var people = this._toArray((this.people[0])),
+          var people = this.people,
             filteredPeople = [];
+            console.log(this.people[0]);
+            console.log(people);
           for (var i = 0, length = 3; i < length; i++) {
-              filteredPeople.push(people[0][i]);
-              // console.log(people[0][i]);
+              filteredPeople.push(people[i]);
+              console.log(people[i]);
           }
           
           this.featuredPeople = this._randomOrder(filteredPeople);

@@ -1,6 +1,4 @@
 [
-  {
-    "members": [
       {
         "name": "강경완",
         "photoUrl": "/images/people/kyeongwan.jpg",
@@ -34,7 +32,4 @@
         "title": "",
         "nick": "@kevinoriginal"
       }
-    ],
-    "title": "Organizer"
-  }
 ]

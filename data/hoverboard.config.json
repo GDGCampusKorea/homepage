@@ -28,6 +28,7 @@
   },
   "pages": {
     "home": {
+      "title": "Home",
       "headerSettings": {
         "backgroundColor": "#FF9800",
         "backgroundImage": "/images/backgrounds/home.png",
@@ -38,6 +39,7 @@
       }
     },
     "team": {
+      "title": "GDG KOREA CAMPUS TEAM",
       "headerSettings": {
         "backgroundColor": "#009688",
         "fontColor": "#fff",
@@ -45,6 +47,7 @@
       }
     },
      "event": {
+      "title" : "EVENT",
       "headerSettings": {
         "backgroundColor": "#FF9800",
         "backgroundImage": "/images/posts/large.jpg",

@@ -133,18 +133,18 @@
         <animatable-content name="home">
           <div class="container" center-justified>
             <div class="home-wrapper">
-              <iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
+              <iron-image class="logo" src="/images/logo-light.png" sizing="contain"
                           alt="GDG Korea Campus"></iron-image>
               
               <h2 class="motto">{$ motto $}</h2>
               <div class="open-video" on-tap="_nextEvent">
                 Our Next Event
               </div>
-              <h3 class="event-title">{{ next-event-title }}</h3>
+              <h3 class="event-title">{$ nextEventTitle $}</h3>
               <h3 class="dates">{$ dates $}</h3>
               <div class="action-buttons">
                 <a href="https://gdg-korea-campus.firebaseapp.com/hackathon/">
-                  <paper-button class="primary" raised>{$ buyTicket $}</paper-button>
+                  <paper-button class="primary" raised>Apply</paper-button>
                 </a>
               </div>
             </div>

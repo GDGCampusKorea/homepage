@@ -5,8 +5,10 @@
 
 <dom-module id="app-data">
   <template>
+    <iron-ajax auto url="[[configSource]]" handle-as="json" last-response="{{app.data}}"></iron-ajax>
     <iron-ajax auto url="[[postsSource]]" handle-as="json" on-response="_reversePosts"></iron-ajax>
-
+    <iron-ajax auto url="[[teamSource]]" handle-as="json" last-response="{{app.team}}"></iron-ajax>
+    <iron-ajax auto url="[[eventsSource]]" handle-as="json" on-response="_reverseEvents"></iron-ajax>
     <firebase-document
       id="querySpeakers"
       app-name="{$ firebase.name $}"
@@ -123,7 +125,15 @@
             type: String,
             value: 'data/blog.json'
           },
+           configSource: {
+            type: String,
+            value: 'data/hoverboard.config.json'
+          },
           posts: {
+            type: Array,
+            notify: true
+          },
+            events: {
             type: Array,
             notify: true
           },
@@ -147,6 +157,14 @@
           },
           _scheduleRaw: {
             type: Array
+          },
+          teamSource: {
+            type: String,
+            value: 'data/team.json'
+          },
+           eventsSource: {
+            type: String,
+            value: 'data/event.json'
           }
         },
         observers: [
@@ -171,7 +189,10 @@
       },
       _reversePosts: function (response) {
         this.posts = response.detail.response.reverse();
-      }
+      }, 
+      _reverseEvents: function (response) {
+          this.events = response.detail.response.reverse();
+        }
     });
   }());
   </script>
