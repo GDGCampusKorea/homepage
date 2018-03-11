@@ -6,7 +6,7 @@
     "primaryColor": "#00BCD4",
     "secondaryColor": "#00BCD4",
     "image": "/images/posts/hackathon.jpg",
-    "brief": "2017년 GDG Korea Campus 불붙은 해커톤 (Firebased Hackathon)",
+    "brief": "2017년 GDG Campus Korea 불붙은 해커톤 (Firebased Hackathon)",
     "person" : [{
       "members": [
         {
@@ -145,7 +145,7 @@
   },
   {
     "id": "meetup-march",
-    "title": "GDG Korea Campus 3월 밋업",
+    "title": "GDG Campus Korea 3월 밋업",
     "date": "2017-03-28",
     "primaryColor": "#5a7785",
     "secondaryColor": "#455a64",
@@ -285,7 +285,7 @@
   },
   {
     "id": "april-designer-event",
-    "title": "GDG Korea Campus 4월 디자이너 MeetUp",
+    "title": "GDG Campus Korea 4월 디자이너 MeetUp",
     "date": "2017-04-29",
     "primaryColor": "#FF9800",
     "secondaryColor": "#FF9800",
@@ -306,7 +306,7 @@
   },
   {
     "id": "1-year-event",
-    "title": "GDG Korea Campus 1주년",
+    "title": "GDG Campus Korea 1주년",
     "date": "2017-11-03",
     "primaryColor": "#FF9800",
     "secondaryColor": "#FF9800",

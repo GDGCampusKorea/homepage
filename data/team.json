@@ -2,29 +2,31 @@
   {
     "members": [
       {
-        "name": "강경완",
-        "photoUrl": "/images/people/kyeongwan.jpg",
+        "name": "계성혁",
+        "photoUrl": "/images/people/sunghyuk.jpg",
         "companyLogo": "/images/logos/gdg-kc.png",
-        "nick": "@lucas",
+        "nick": "@lkaybob",
         "socials": [
           {
             "icon": "facebook",
-            "link": "https://www.facebook.com/kyeongwan.k",
+            "link": "https://www.facebook.com/lawrence.kaybob",
             "name": "Facebook"
-          },
-          {
-            "icon": "website",
-            "link": "http://kyeongwan.kr/",
-            "name": "Blog"
           }
         ],
-        "title": "잉여 프로그래머"
+        "title": ""
       },
       {
         "name": "양희찬",
         "photoUrl": "/images/people/heechan.png",
         "companyLogo": "/images/logos/gdg-kc.png",
         "nick": "@heechan",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/heechanyan",
+            "name": "Facebook"
+          }
+        ],
         "title": ""
       },
       {
